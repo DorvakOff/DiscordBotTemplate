@@ -1,0 +1,13 @@
+{
+  "info": {
+    "name": "info",
+    "description": "Obtenir des informations sur le bot",
+    "reply": {
+      "title": "Informations sur le bot",
+      "description": "Ce bot a été créé par {{author}}",
+      "buttons": {
+        "addBot": "Ajouter le bot"
+      }
+    }
+  }
+}

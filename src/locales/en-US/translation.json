@@ -1,0 +1,9 @@
+{
+  "error": {
+    "title": "Error",
+    "description": "An error occurred while executing the command"
+  },
+  "embed": {
+    "footer": "Made with ❤️ by {{author}} • v{{version}}"
+  }
+}

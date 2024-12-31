@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "A simple Discord bot template",
+  "author": "Dorvak",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup --minify --dts --clean --format cjs,esm src/index.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "i18next": "^24.2.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.2"
+  },
+  "private": true
+}
